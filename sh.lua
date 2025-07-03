@@ -160,7 +160,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 0, 0.243362829, 0)
 TextLabel_2.Size = UDim2.new(0, 462, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Version V1.0.0"
+TextLabel_2.Text = "Version 1.0.0"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -173,6 +173,7 @@ ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScriptFrame.BorderSizePixel = 0
 ScriptFrame.Position = UDim2.new(0, 0, 0.181159422, 0)
 ScriptFrame.Size = UDim2.new(0, 462, 0, 226)
+ScriptFrame.Visible = false
 
 TextLabel_3.Parent = ScriptFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
@@ -284,7 +285,7 @@ UICorner_3.Parent = Open
 
 -- Scripts:
 
-local function JFHSM_fake_script() -- Frame.LocalScript 
+local function HAVHX_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	drag = script.Parent.Parent.Frame
@@ -292,24 +293,24 @@ local function JFHSM_fake_script() -- Frame.LocalScript
 	drag.Active = true
 	drag.Archivable = true
 end
-coroutine.wrap(JFHSM_fake_script)()
-local function XRFT_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(HAVHX_fake_script)()
+local function OBGS_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Frame.Visible = false
 	end)
 end
-coroutine.wrap(XRFT_fake_script)()
-local function PGDB_fake_script() -- Close.LocalScript 
+coroutine.wrap(OBGS_fake_script)()
+local function HZPWK_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Rbx691scripthub:Destroy()
 	end)
 end
-coroutine.wrap(PGDB_fake_script)()
-local function UWOPIO_fake_script() -- Home.LocalScript 
+coroutine.wrap(HZPWK_fake_script)()
+local function NWJZH_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -318,8 +319,8 @@ local function UWOPIO_fake_script() -- Home.LocalScript
 		script.Parent.Parent.Parent.harkedv2gamesframe.Visible = false
 	end)
 end
-coroutine.wrap(UWOPIO_fake_script)()
-local function RRWM_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(NWJZH_fake_script)()
+local function LQVBLOR_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -328,8 +329,8 @@ local function RRWM_fake_script() -- Scripts.LocalScript
 		script.Parent.Parent.Parent.harkedv2gamesframe.Visible = false
 	end)
 end
-coroutine.wrap(RRWM_fake_script)()
-local function RPBFH_fake_script() -- HarkedSection.LocalScript 
+coroutine.wrap(LQVBLOR_fake_script)()
+local function NTQIJE_fake_script() -- HarkedSection.LocalScript 
 	local script = Instance.new('LocalScript', HarkedSection)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -338,56 +339,56 @@ local function RPBFH_fake_script() -- HarkedSection.LocalScript
 		script.Parent.Parent.Parent.harkedv2gamesframe.Visible = true
 	end)
 end
-coroutine.wrap(RPBFH_fake_script)()
-local function XWCY_fake_script() -- IY.LocalScript 
+coroutine.wrap(NTQIJE_fake_script)()
+local function FWPJG_fake_script() -- IY.LocalScript 
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(XWCY_fake_script)()
-local function HTXJQ_fake_script() -- Harkedv2.LocalScript 
+coroutine.wrap(FWPJG_fake_script)()
+local function VGTLBW_fake_script() -- Harkedv2.LocalScript 
 	local script = Instance.new('LocalScript', Harkedv2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()
 	end)
 end
-coroutine.wrap(HTXJQ_fake_script)()
-local function YDCUS_fake_script() -- Cartrideintordite.LocalScript 
+coroutine.wrap(VGTLBW_fake_script)()
+local function LIFNN_fake_script() -- Cartrideintordite.LocalScript 
 	local script = Instance.new('LocalScript', Cartrideintordite)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Robloxexploiter691/Skripts/refs/heads/main/cart%20ride%20into%20rdite.lua"))()
 	end)
 end
-coroutine.wrap(YDCUS_fake_script)()
-local function DUKWG_fake_script() -- Teleport.LocalScript 
+coroutine.wrap(LIFNN_fake_script)()
+local function WXAFFSK_fake_script() -- Teleport.LocalScript 
 	local script = Instance.new('LocalScript', Teleport)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TeleportService"):Teleport("9043532917")
 	end)
 end
-coroutine.wrap(DUKWG_fake_script)()
-local function CREWT_fake_script() -- Teleport_2.LocalScript 
+coroutine.wrap(WXAFFSK_fake_script)()
+local function PRGML_fake_script() -- Teleport_2.LocalScript 
 	local script = Instance.new('LocalScript', Teleport_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game:GetService("TeleportService"):Teleport("10927225814")
 	end)
 end
-coroutine.wrap(CREWT_fake_script)()
-local function CDUE_fake_script() -- Open.LocalScript 
+coroutine.wrap(PRGML_fake_script)()
+local function ICNAIL_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(CDUE_fake_script)()
-local function BWTGSRB_fake_script() -- Open.LocalScript 
+coroutine.wrap(ICNAIL_fake_script)()
+local function XMXXWA_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	drag2 = script.Parent
@@ -395,4 +396,4 @@ local function BWTGSRB_fake_script() -- Open.LocalScript
 	drag2.Active = true
 	drag2.Archivable = true
 end
-coroutine.wrap(BWTGSRB_fake_script)()
+coroutine.wrap(XMXXWA_fake_script)()
